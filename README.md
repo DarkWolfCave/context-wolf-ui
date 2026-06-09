@@ -2,7 +2,10 @@
 
 🇩🇪 Dieses Repository ist der **öffentliche Issue-Tracker** für **ContextWolf UI**, die Web-GUI für [ContextWolf](https://github.com/DarkWolfCave/context-wolf).
 
-Der Code der Web-UI ist **nicht öffentlich**. Das Produkt wird exklusiv als Docker-Image-Bundle für Teilnehmer der passenden [Wolf Academy](https://academy.wolfcoder.de) Kurse ausgeliefert (MCP Masterclass / ContextWolf Pro).
+Der Code der Web-UI ist **nicht öffentlich**. Das Produkt wird exklusiv als Docker-Image-Bundle für Teilnehmer der passenden [Wolf Academy](https://academy.wolfcoder.de) Kurse ausgeliefert:
+
+- **ContextWolf Pro — Dein KI-Gedächtnis im Alltag** (inkl. Web-GUI)
+- **Eigenen MCP-Server bauen — Das ContextWolf-Prinzip** (inkl. Web-GUI)
 
 ## Was du hier tun kannst
 
@@ -12,7 +15,7 @@ Der Code der Web-UI ist **nicht öffentlich**. Das Produkt wird exklusiv als Doc
 
 ## Du willst die Web-UI auch?
 
-→ **[Wolf Academy](https://academy.wolfcoder.de)** — die Web-UI ist Teil der Kurse rund um ContextWolf und MCP-Entwicklung. Mit dem Kurs bekommst du:
+→ **[Wolf Academy](https://academy.wolfcoder.de)** — die Web-UI ist exklusiv Teil dieser beiden Kurse. Mit dem Kurs bekommst du:
 
 - Zugang zu den privaten Container-Images (`ghcr.io/darkwolfcave/context-wolf-ui/...`)
 - `docker-compose.yml` + Setup-Anleitung
@@ -24,4 +27,4 @@ Das **CLI / MCP-Server** ist Open Source und unter [DarkWolfCave/context-wolf](h
 
 ---
 
-🇬🇧 **English:** This is the public **issue tracker** for **ContextWolf UI**, the closed-source Web GUI distributed as Docker images exclusively to participants of the matching [Wolf Academy](https://academy.wolfcoder.de) courses. Issue templates are German-first; English templates are available too. Feel free to file issues in either language.
+🇬🇧 **English:** This is the public **issue tracker** for **ContextWolf UI**, the closed-source Web GUI distributed as Docker images exclusively to participants of the matching [Wolf Academy](https://academy.wolfcoder.de) courses (both German-language). Issue templates are German-first; English templates are available too. Feel free to file issues in either language.
