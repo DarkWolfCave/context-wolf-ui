@@ -1,0 +1,34 @@
+name: ✨ Feature-Vorschlag
+description: Eine neue Funktion oder Verbesserung vorschlagen
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem löst es?
+      description: |
+        Beschreibe den Use Case oder Pain Point. Noch keinen Lösungsweg vorschlagen —
+        konzentriere dich auf das "Warum".
+      placeholder: "Wenn ich mit X arbeite, finde ich es umständlich, dass…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: vorschlag
+    attributes:
+      label: Lösungs-Vorschlag
+      description: Wie könnte ContextWolf UI das adressieren?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativen
+    attributes:
+      label: Alternativen
+      description: Welche anderen Ansätze hast du in Betracht gezogen?
+
+  - type: textarea
+    id: zusatz
+    attributes:
+      label: Sonstiges
+      description: Mockups, Links zu ähnlichen Features in anderen Tools, etc.

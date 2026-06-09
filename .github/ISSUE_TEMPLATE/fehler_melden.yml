@@ -1,0 +1,71 @@
+name: 🐛 Fehler melden
+description: Etwas funktioniert nicht oder verhält sich unerwartet
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du dir die Zeit für eine Fehlermeldung nimmst! Je mehr Details
+        du angibst, desto schneller können wir helfen.
+
+  - type: input
+    id: version
+    attributes:
+      label: ContextWolf UI Version
+      description: "Ausgabe von `docker images | grep context-wolf-ui` (z.B. v0.1.0)"
+      placeholder: "v0.1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: was-passiert
+    attributes:
+      label: Was passiert?
+      description: Beschreibe das Problem so klar wie möglich.
+      placeholder: "Wenn ich X mache, passiert Y statt Z…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Schritte zum Nachvollziehen
+      placeholder: |
+        1. Öffne '…'
+        2. Klicke auf '…'
+        3. Sehe Fehler '…'
+    validations:
+      required: true
+
+  - type: textarea
+    id: erwartung
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+
+  - type: textarea
+    id: umgebung
+    attributes:
+      label: Umgebung
+      description: Je vollständiger, desto besser bei der Fehlersuche.
+      value: |
+        - OS:
+        - Browser:
+        - Docker-Version:
+        - ContextWolf CLI Version:
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Backend-Logs (letzte ~50 Zeilen)
+      description: "Ausgabe von `docker compose logs backend --tail 50`"
+      render: shell
+
+  - type: textarea
+    id: zusatz
+    attributes:
+      label: Sonstiges
+      description: Screenshots, Browser-Console-Errors, alles was helfen könnte.

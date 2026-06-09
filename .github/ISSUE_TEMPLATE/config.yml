@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🎓 Wolf Academy — Kursbereich & Support
+    url: https://academy.wolfcoder.de
+    about: Fragen zum Kursinhalt oder deinem Zugang? Bitte über die Academy, nicht hier. — Course content or access questions? Use the academy.
+  - name: 🐺 ContextWolf CLI (separates Repo)
+    url: https://github.com/DarkWolfCave/context-wolf/issues
+    about: Fehler oder Feature für das CLI / MCP-Server (nicht die Web-UI)? Bitte dort melden. — Bug or feature for the CLI / MCP server (not the Web UI)? File it there.
